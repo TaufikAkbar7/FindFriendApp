@@ -6,7 +6,7 @@ const Card = ({ data }) => {
             padding: 15,
             border: '2px solid #000'
         }}>
-            <img src={data.picture.large} style={{
+            <img aria-label="person image" src={data.picture.large} style={{
                 objectFit: 'cover',
                 objectPosition: 'center',
                 height: 250
